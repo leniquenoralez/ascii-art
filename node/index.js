@@ -1,6 +1,4 @@
-// import sharp from 'sharp';
 import _ from 'lodash';
-import chalk from 'chalk';
 import {
   toAsciiCharacterArr,
   toBrightnessArr,
@@ -25,4 +23,4 @@ import {
 
   console.log(asciiArr.join('\n'));
 })();
-// (96 + 80 + 64) / 3 = 80;
+
