@@ -23,3 +23,4 @@ import {
 
   console.log(asciiArr.join('\n'));
 })();
+
