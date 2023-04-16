@@ -11,9 +11,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "boxen": "^7.0.2",
     "chalk": "^5.2.0",
+    "commander": "^10.0.1",
+    "conf": "^11.0.1",
+    "figlet": "^1.6.0",
     "jimp": "^0.22.7",
     "lodash": "^4.17.21",
-    "sharp": "^0.32.0"
+    "sharp": "^0.32.0",
+    "yargs": "^17.7.1"
+  },
+  "bin": {
+    "img2asc": "./bin/index.js"
   }
 }
